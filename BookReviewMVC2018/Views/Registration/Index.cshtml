@@ -1,0 +1,24 @@
+﻿@model IEnumerable<BookReviewMVC2018.Models.Reviewer>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Reviewers</h2>
+<p>@Html.ActionLink("Register","Register")</p>
+<table class = "table">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.ReviewerFirstName)</th>
+        <th>@Html.DisplayNameFor(model => model.ReviewerLastName)</th>
+        <th>@Html.DisplayNameFor(model => model.ReviewerEmail)</th>
+        <th>@Html.DisplayNameFor(model => model.ReviewerDateEntered)</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>@Html.DisplayFor(model => item.ReviewerFirstName)</td>
+        <td>@Html.DisplayFor(model => item.ReviewerLastName)</td>
+        <td>@Html.DisplayFor(model => item.ReviewerEmail)</td>
+        <td>@Html.DisplayFor(model => item.ReviewerDateEntered)</td>
+    </tr>
+    }
+</table>
