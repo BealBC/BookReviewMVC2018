@@ -153,6 +153,7 @@
     <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\NewBookController.cs" />
     <Compile Include="Controllers\RegistrationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -186,6 +187,7 @@
     </Compile>
     <Compile Include="Models\LoginClass.cs" />
     <Compile Include="Models\MessageClass.cs" />
+    <Compile Include="Models\NewBook.cs" />
     <Compile Include="Models\Review.cs">
       <DependentUpon>BookReviewModel.tt</DependentUpon>
     </Compile>
@@ -257,6 +259,8 @@
     <Content Include="Views\Registration\Register.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\Login\Result.cshtml" />
+    <Content Include="Views\NewBook\Index.cshtml" />
+    <Content Include="Views\NewBook\Result.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
