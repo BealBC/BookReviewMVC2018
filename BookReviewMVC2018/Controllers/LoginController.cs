@@ -30,7 +30,7 @@ namespace BookReviewMVC2018.Controllers
                 Session["reviewerKey"] = rKey;
 
                 MessageClass msg = new MessageClass();
-                msg.MessageText = "Thank You, " + lc.UserName + " for logging in. you can now donate or apply fo assistance";
+                msg.MessageText = "Thank You, " + lc.UserName + " for logging in. You can now donate or apply for assistance.";
                 return RedirectToAction("Result", msg);
             }
             MessageClass message = new MessageClass();

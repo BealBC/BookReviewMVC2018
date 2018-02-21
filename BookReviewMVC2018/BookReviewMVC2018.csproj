@@ -154,6 +154,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\NewBookController.cs" />
+    <Compile Include="Controllers\NewReviewController.cs" />
     <Compile Include="Controllers\RegistrationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -258,9 +259,9 @@
     <Content Include="Views\Registration\Index.cshtml" />
     <Content Include="Views\Registration\Register.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
-    <Content Include="Views\Login\Result.cshtml" />
     <Content Include="Views\NewBook\Index.cshtml" />
-    <Content Include="Views\NewBook\Result.cshtml" />
+    <Content Include="Views\Shared\Result.cshtml" />
+    <Content Include="Views\NewReview\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
